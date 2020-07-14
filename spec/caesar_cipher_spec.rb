@@ -1,4 +1,4 @@
-require "../lib/caesar_cipher"
+require_relative "../lib/caesar_cipher"
 
 RSpec.describe "Encrypt one letter" do
   it "Encrypt lowercase letter" do
