@@ -1,0 +1,9 @@
+inherit_from:
+  - https://relaxed.ruby.style/rubocop.yml
+
+AllCops:
+ Exclude:
+   - "spec/spec_helper.rb"
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
